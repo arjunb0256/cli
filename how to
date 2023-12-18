@@ -1,0 +1,22 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/arjunb0256/cli.git
+git push -u origin main
+
+git remote add origin https://github.com/arjunb0256/cli.git
+git branch -M main
+git push -u origin main
+
+
+git clone https://github.com/arjunb0256/testdir.git
+ls
+cd 'repo name'
+vi testfile
+cat testfile
+git status
+git add testfile
+git status
+git commit -m "this is test file for credentials- 1st method"
+git push
